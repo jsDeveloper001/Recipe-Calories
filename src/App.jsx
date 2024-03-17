@@ -1,10 +1,11 @@
 import './App.css'
+import Header from './components/Header/Header'
 
 const App = () => {
   return (
-    <>
-      <h2>React Assignment</h2>
-    </>
+    <div className='container mx-auto'>
+      <Header></Header>
+    </div>
   )
 }
 
