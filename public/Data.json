@@ -4,7 +4,13 @@
         "recipe_id": 1,
         "recipe_name": "Spicy Chicken Curry",
         "description": "A fiery chicken curry bursting with bold spices and flavors.",
-        "ingredients": ["Chicken", "Tomatoes", "Onions", "Spices", "Garlic"],
+        "ingredients": [
+            "500g Chicken",
+            "3 Tomatoes",
+            "2 Onions",
+            "Assorted Spices",
+            "3 cloves Garlic"
+        ],
         "cooking_time": 45,
         "calories": 350
     },
@@ -13,7 +19,14 @@
         "recipe_id": 2,
         "recipe_name": "Vegetable Stir Fry",
         "description": "A colorful medley of fresh vegetables, stir-fried to perfection.",
-        "ingredients": ["Broccoli", "Carrots", "Bell Peppers", "Mushrooms", "Soy Sauce", "Ginger"],
+        "ingredients": [
+            "200g Broccoli",
+            "150g Carrots",
+            "2 Bell Peppers",
+            "100g Mushrooms",
+            "3 tbsp Soy Sauce",
+            "1 tbsp Ginger"
+        ],
         "cooking_time": 20,
         "calories": 200
     },
@@ -22,7 +35,12 @@
         "recipe_id": 3,
         "recipe_name": "Classic Margherita Pizza",
         "description": "Simple yet satisfying pizza topped with tomatoes, mozzarella, and basil.",
-        "ingredients": ["Flour", "Tomatoes", "Mozzarella Cheese", "Basil", "Olive Oil", "Salt"],
+        "ingredients": [
+            "300g Flour",
+            "200g Mozzarella Cheese",
+            "2 tbsp Olive Oil",
+            "Pinch of Salt"
+        ],
         "cooking_time": 30,
         "calories": 400
     },
@@ -31,7 +49,14 @@
         "recipe_id": 4,
         "recipe_name": "Shrimp Pasta Alfredo",
         "description": "Creamy alfredo sauce tossed with succulent shrimp and pasta.",
-        "ingredients": ["Shrimp", "Pasta", "Heavy Cream", "Parmesan Cheese", "Garlic", "Butter"],
+        "ingredients": [
+            "400g Shrimp",
+            "300g Pasta",
+            "500ml Heavy Cream",
+            "100g Parmesan Cheese",
+            "3 cloves Garlic",
+            "2 tbsp Butter"
+        ],
         "cooking_time": 35,
         "calories": 500
     },
@@ -40,7 +65,13 @@
         "recipe_id": 5,
         "recipe_name": "Mango Coconut Smoothie",
         "description": "A tropical delight blending mangoes, coconut milk, and yogurt.",
-        "ingredients": ["Mango", "Coconut Milk", "Yogurt", "Honey", "Ice Cubes", "Lime Juice"],
+        "ingredients": [
+            "2 Mangoes",
+            "400ml Coconut Milk",
+            "200ml Yogurt",
+            "2 tbsp Honey",
+            "Handful of Ice Cubes"
+        ],
         "cooking_time": 10,
         "calories": 250
     },
@@ -49,7 +80,14 @@
         "recipe_id": 6,
         "recipe_name": "Beef Tacos",
         "description": "Savory beef filling wrapped in warm tortillas, topped with fresh salsa.",
-        "ingredients": ["Beef", "Tortillas", "Lettuce", "Tomatoes", "Cheese", "Salsa"],
+        "ingredients": [
+            "500g Beef",
+            "8 Tortillas",
+            "Lettuce",
+            "3 Tomatoes",
+            "200g Cheese",
+            "Salsa"
+        ],
         "cooking_time": 25,
         "calories": 380
     }

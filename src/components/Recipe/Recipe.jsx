@@ -12,7 +12,7 @@ const Recipe = ({ recipe, addToCook }) => {
                 <p className='mt-3 font-normal text-base text-[#878787] border-b pb-4'>{description}</p>
                 <div className='border-b pt-4 pb-4'>
                     <h2 className='mb-2 font-medium text-lg'>Ingredients: {ingredients.length}</h2>
-                    {ingredients.map(ingredient => <li className='text-[#7a7878]'>{ingredient}</li>)}
+                    {ingredients.map((ingredient, index) => <li className='text-[#7a7878]' key={index}>{ingredient}</li>)}
                 </div>
                 <div className='flex items-center gap-10 mt-4 text-sm text-[#878787]'>
                     <span>
