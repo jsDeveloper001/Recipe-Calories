@@ -1,4 +1,3 @@
-import React from 'react';
 import { faClock, faFire } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
@@ -6,7 +5,9 @@ const Recipe = ({ recipe, addToCook }) => {
     const { image, description, recipe_name, ingredients, cooking_time, calories } = recipe;
     return (
         <div className="card w-auto bg-base-100 shadow-xl border rounded-2xl p-5">
-            <figure><img src={image} alt="recipe" className='rounded-2xl w-full h-[300px]' /></figure>
+            <figure>
+                <img src={image} alt="recipe" className='rounded-2xl w-full h-[300px]' />
+            </figure>
             <div className="mt-4">
                 <h2 className="font-semibold text-xl">{recipe_name}</h2>
                 <p className='mt-3 font-normal text-base text-[#878787] border-b pb-4'>{description}</p>
@@ -18,7 +19,9 @@ const Recipe = ({ recipe, addToCook }) => {
                     <span>
                         <FontAwesomeIcon icon={faClock} /> {cooking_time} minutes
                     </span>
-                    <span><FontAwesomeIcon icon={faFire} /> {calories} calories</span>
+                    <span>
+                        <FontAwesomeIcon icon={faFire} /> {calories} calories
+                    </span>
                 </div>
                 <div className="card-actions justify-start mt-8">
                     <button className="btn bg-[#0BE58A]" onClick={() => { addToCook(recipe) }}>Want to Cook</button>

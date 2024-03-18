@@ -49,7 +49,6 @@ const All_Recipes = () => {
                     <h2 className='text-center text-xl font-bold border-b pb-3 border-[#28282833]'>Want to Cook: {cookingTable.length}</h2>
                     <div className="overflow-x-auto">
                         <table className="table">
-                            {/* head */}
                             <thead>
                                 <tr className='text-base'>
                                     <th></th>
@@ -59,7 +58,6 @@ const All_Recipes = () => {
                                 </tr>
                             </thead>
                             <tbody>
-                                {/* row 1 */}
                                 {
                                     cookingTable.map((cookingTableItem, index) =>
                                         <tr className='bg-base-200' key={index}>
@@ -75,11 +73,11 @@ const All_Recipes = () => {
                         </table>
                     </div>
                 </div>
+                
                 <div className='mt-8'>
                     <h2 className='text-center text-xl font-bold border-b pb-3 border-[#28282833]'>Currently cooking: {recentCookingTable.length}</h2>
                     <div className="overflow-x-auto">
                         <table className="table">
-                            {/* head */}
                             <thead>
                                 <tr className='text-base'>
                                     <th></th>
@@ -89,7 +87,6 @@ const All_Recipes = () => {
                                 </tr>
                             </thead>
                             <tbody>
-                                {/* row 1 */}
                                 {
                                     recentCookingTable.map((recentCookingItem, index) =>
                                         <tr className='bg-base-200' key={index}>

@@ -1,4 +1,3 @@
-import React from 'react';
 const Banner = () => {
     return (
         <div className='w-full mx-auto text-center mt-4'>
