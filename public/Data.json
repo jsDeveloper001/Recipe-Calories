@@ -1,0 +1,56 @@
+[
+    {
+        "image": "https://example.com/image1.jpg",
+        "recipe_id": 1,
+        "recipe_name": "Spicy Chicken Curry",
+        "description": "A fiery chicken curry bursting with bold spices and flavors.",
+        "ingredients": ["Chicken", "Tomatoes", "Onions", "Spices", "Garlic"],
+        "cooking_time": 45,
+        "calories": 350
+    },
+    {
+        "image": "https://example.com/image2.jpg",
+        "recipe_id": 2,
+        "recipe_name": "Vegetable Stir Fry",
+        "description": "A colorful medley of fresh vegetables, stir-fried to perfection.",
+        "ingredients": ["Broccoli", "Carrots", "Bell Peppers", "Mushrooms", "Soy Sauce", "Ginger"],
+        "cooking_time": 20,
+        "calories": 200
+    },
+    {
+        "image": "https://example.com/image3.jpg",
+        "recipe_id": 3,
+        "recipe_name": "Classic Margherita Pizza",
+        "description": "Simple yet satisfying pizza topped with tomatoes, mozzarella, and basil.",
+        "ingredients": ["Flour", "Tomatoes", "Mozzarella Cheese", "Basil", "Olive Oil", "Salt"],
+        "cooking_time": 30,
+        "calories": 400
+    },
+    {
+        "image": "https://example.com/image4.jpg",
+        "recipe_id": 4,
+        "recipe_name": "Shrimp Pasta Alfredo",
+        "description": "Creamy alfredo sauce tossed with succulent shrimp and pasta.",
+        "ingredients": ["Shrimp", "Pasta", "Heavy Cream", "Parmesan Cheese", "Garlic", "Butter"],
+        "cooking_time": 35,
+        "calories": 500
+    },
+    {
+        "image": "https://example.com/image5.jpg",
+        "recipe_id": 5,
+        "recipe_name": "Mango Coconut Smoothie",
+        "description": "A tropical delight blending mangoes, coconut milk, and yogurt.",
+        "ingredients": ["Mango", "Coconut Milk", "Yogurt", "Honey", "Ice Cubes", "Lime Juice"],
+        "cooking_time": 10,
+        "calories": 250
+    },
+    {
+        "image": "https://example.com/image6.jpg",
+        "recipe_id": 6,
+        "recipe_name": "Beef Tacos",
+        "description": "Savory beef filling wrapped in warm tortillas, topped with fresh salsa.",
+        "ingredients": ["Beef", "Tortillas", "Lettuce", "Tomatoes", "Cheese", "Salsa"],
+        "cooking_time": 25,
+        "calories": 380
+    }
+]
