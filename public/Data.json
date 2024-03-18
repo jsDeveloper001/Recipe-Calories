@@ -1,6 +1,6 @@
 [
     {
-        "image": "https://example.com/image1.jpg",
+        "image": "https://i.ibb.co/KjSpwnR/chicken-curry.jpg",
         "recipe_id": 1,
         "recipe_name": "Spicy Chicken Curry",
         "description": "A fiery chicken curry bursting with bold spices and flavors.",
@@ -15,7 +15,7 @@
         "calories": 350
     },
     {
-        "image": "https://example.com/image2.jpg",
+        "image": "https://i.ibb.co/rc9pHCr/vegetables.jpg",
         "recipe_id": 2,
         "recipe_name": "Vegetable Stir Fry",
         "description": "A colorful medley of fresh vegetables, stir-fried to perfection.",
@@ -31,7 +31,7 @@
         "calories": 200
     },
     {
-        "image": "https://example.com/image3.jpg",
+        "image": "https://i.ibb.co/n7CSFTH/pizza.jpg",
         "recipe_id": 3,
         "recipe_name": "Classic Margherita Pizza",
         "description": "Simple yet satisfying pizza topped with tomatoes, mozzarella, and basil.",
@@ -45,7 +45,7 @@
         "calories": 400
     },
     {
-        "image": "https://example.com/image4.jpg",
+        "image": "https://i.ibb.co/MfwCzNz/pasta.jpg",
         "recipe_id": 4,
         "recipe_name": "Shrimp Pasta Alfredo",
         "description": "Creamy alfredo sauce tossed with succulent shrimp and pasta.",
@@ -61,7 +61,7 @@
         "calories": 500
     },
     {
-        "image": "https://example.com/image5.jpg",
+        "image": "https://i.ibb.co/RSdSbzx/mango-coconut.jpg",
         "recipe_id": 5,
         "recipe_name": "Mango Coconut Smoothie",
         "description": "A tropical delight blending mangoes, coconut milk, and yogurt.",
@@ -76,7 +76,7 @@
         "calories": 250
     },
     {
-        "image": "https://example.com/image6.jpg",
+        "image": "https://i.ibb.co/Bzn4VMw/Beef-Tacos.jpg",
         "recipe_id": 6,
         "recipe_name": "Beef Tacos",
         "description": "Savory beef filling wrapped in warm tortillas, topped with fresh salsa.",

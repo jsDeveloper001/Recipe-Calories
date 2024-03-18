@@ -6,7 +6,7 @@ const Recipe = ({ recipe, addToCook }) => {
     const { image, description, recipe_name, ingredients, cooking_time, calories } = recipe;
     return (
         <div className="card w-auto bg-base-100 shadow-xl border rounded-2xl p-5">
-            <figure><img src={'https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg' || image} alt="Shoes" className='rounded-2xl' /></figure>
+            <figure><img src={image} alt="recipe" className='rounded-2xl w-full h-[300px]' /></figure>
             <div className="mt-4">
                 <h2 className="font-semibold text-xl">{recipe_name}</h2>
                 <p className='mt-3 font-normal text-base text-[#878787] border-b pb-4'>{description}</p>

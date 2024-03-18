@@ -1,10 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import Recipe from '../Recipe/Recipe';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const All_Recipes = () => {
     const [recipes, setRecipes] = useState([]);
     const [cookingTable, setcookingTable] = useState([]);
     const [recentCookingTable, setrecentCookingTable] = useState([]);
+    const showToast = () => toast("only one item can be add")
     useEffect(() => {
         fetch('Data.json')
             .then(data => data.json())
@@ -15,7 +18,9 @@ const All_Recipes = () => {
     const addToCook = (recipe) => {
         const existingRecipe = cookingTable.find(item => item.recipe_id == recipe.recipe_id);
         if (existingRecipe) {
-            alert("set a toast ersdklffffffffff")
+            { showToast }
+            <ToastContainer />
+
         }
         else {
             setcookingTable([...cookingTable, recipe])
@@ -30,8 +35,6 @@ const All_Recipes = () => {
 
         setrecentCookingTable([...recentCookingTable, cookingRecipe])
     }
-
-    console.log(recentCookingTable)
 
     return (
         <div className='grid gap-5 grid-cols-1fr md:grid-cols-[3fr,2fr] lg:grid-cols-[3fr,2fr]'>
@@ -53,11 +56,11 @@ const All_Recipes = () => {
                         <table className="table">
                             {/* head */}
                             <thead>
-                                <tr>
+                                <tr className='text-base'>
                                     <th></th>
                                     <th>Name</th>
-                                    <th>Job</th>
-                                    <th>Favorite Color</th>
+                                    <th>Time</th>
+                                    <th>Calories</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -83,11 +86,11 @@ const All_Recipes = () => {
                         <table className="table">
                             {/* head */}
                             <thead>
-                                <tr>
+                                <tr className='text-base'>
                                     <th></th>
                                     <th>Name</th>
-                                    <th>Job</th>
-                                    <th>Favorite Color</th>
+                                    <th>Time</th>
+                                    <th>Calories</th>
                                 </tr>
                             </thead>
                             <tbody>
