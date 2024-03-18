@@ -1,13 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import Recipe from '../Recipe/Recipe';
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import toast, { Toaster } from 'react-hot-toast';
 
 const All_Recipes = () => {
     const [recipes, setRecipes] = useState([]);
     const [cookingTable, setcookingTable] = useState([]);
     const [recentCookingTable, setrecentCookingTable] = useState([]);
-    const showToast = () => toast("only one item can be add")
     useEffect(() => {
         fetch('Data.json')
             .then(data => data.json())
@@ -18,14 +16,11 @@ const All_Recipes = () => {
     const addToCook = (recipe) => {
         const existingRecipe = cookingTable.find(item => item.recipe_id == recipe.recipe_id);
         if (existingRecipe) {
-            { showToast }
-            <ToastContainer />
-
+            toast.error("only one item can be add to cook")
         }
         else {
             setcookingTable([...cookingTable, recipe])
         }
-
     }
 
     // go to cook table by preparing button
@@ -72,7 +67,7 @@ const All_Recipes = () => {
                                             <td>{cookingTableItem.recipe_name}</td>
                                             <td>{cookingTableItem.cooking_time} minutes</td>
                                             <td>{cookingTableItem.calories} calories</td>
-                                            <td><button className='btn bg-[#0BE58A] rounded-full' onClick={() => { readyToCook(cookingTableItem) }}>Preparing</button></td>
+                                            <td><button className='btn text-xs bg-[#0BE58A] rounded-full' onClick={() => { readyToCook(cookingTableItem) }}>Preparing</button></td>
                                         </tr>
                                     )
                                 }
@@ -110,6 +105,8 @@ const All_Recipes = () => {
                     </div>
                 </div>
             </div>
+            <Toaster position="top-right"
+                reverseOrder={false} />
         </div>
     );
 };
